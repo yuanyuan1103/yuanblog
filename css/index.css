@@ -1,0 +1,477 @@
+
+/*---------輪播css--------*/
+ol.carousel-indicators li {
+	width: 8px;
+	height: 8px;
+	border-radius: 10px;
+	background-color:#cccccc;
+}
+ol.carousel-indicators li.active {
+	background-color:#82827a;
+	border-radius: 20px;
+}
+.carousel-indicators{
+	bottom: 0px;
+	margin-bottom: 0px;
+}
+/*---------index_a.html--------*/
+.tit_index1
+{
+	background-color:#307c1a;
+	width:1200px;
+	color:#fff;
+	height:32px;
+	padding:2px 20px 0 20px;
+}
+.menu_index{
+	display:inline;
+	padding:0 0 0 10px;
+}
+.menu_index1{
+	display:inline;
+	border-right:#fff 1px solid;
+	padding:0 15px 0 10px;
+}
+.menu_index:hover,.menu_index1:hover{
+	color:#000;
+}
+.tit_name
+{
+	font-style:italic;
+	font-size:18px;
+	display:inline;
+	width:100px;
+}
+/*---------index_b.html--------*/
+.wid
+{
+	width:1200px;
+}
+.logo
+{
+	width:300px;
+	text-align:center;
+}
+.input_lg
+{
+	width:500px;
+}
+input[type="submit"]{
+	padding:5px 15px; 
+	background:red; 
+	border:0 none;
+	cursor:pointer;
+	color:#fff;
+}
+input[type="text"]{
+	padding:5px 15px;
+	border:2px #a81616 solid;
+	cursor:pointer;
+}
+.app_box
+{
+	width:200px;
+	text-align:center;
+}
+.app_font
+{
+	color:#3fa503;
+}
+.app_img
+{
+	width:100px;
+}
+/*---------index_c.html--------*/
+.menu_tit
+{
+	background-color:#307c1a;
+	color:#fff;
+	text-align:center;	
+}
+.menu_left
+{
+	height:410px;
+	font-size:20px;
+	width:270px;
+	background-color:#fff;
+	padding:0 0 0 10px;
+	font-weight:700;
+	color:#4d4d4d;
+}
+.tit_img
+{
+	font-size:18px;
+	width:600px;
+	font-weight:900;
+	text-align:center;
+}
+
+#ad_carousel
+{
+	border:red 2px solid;
+}
+.menu_index3{
+	display:inline;
+	padding:0 0 0 10px;
+}
+.menu_index4{
+	display:inline;
+	border-right:#000 1px solid;
+	padding:0 15px 0 10px;
+}
+.menu_index3:hover,.menu_index4:hover{
+	color:#fff;
+}
+.meun_pad
+{
+	padding:3px 0 0 50px;
+}
+.meun_pad1
+{
+	padding:0 20px 0 0;
+}
+.meun_pad:hover
+{
+	color:#fff;
+}
+.menu_right
+{
+	width:395px;
+	float:right;
+}
+
+.c_box
+{
+	width:250px;
+}
+.c_box1
+{
+	width:200px;
+	position: relative;
+}
+.c_f1,.c_f2,.c_f3,.c_f4,.c_f5,.c_f6,.c_f7,.c_f8
+{
+	position: absolute;
+}
+.c_f1
+{
+	top:1%;
+	left:30%;
+	color:#a46e4e;
+	font-size:20px;
+}
+.c_f2
+{
+	top:13%;
+	left:30%;
+	color:#e2ba84;
+	font-size:12px;
+}
+.c_f3
+{
+	top:33%;
+	left:40%;
+	color:#623d36;
+	font-size:30px;
+}
+.c_f4
+{
+
+	top:28%;
+	left:54%;
+	color:#623d36;
+	font-size:40px;
+	
+}
+.c_f5
+{
+	top:50%;
+	left:35%;
+	color:#623d36;
+	font-size:5px;
+	
+}
+.c_f6
+{
+	top:78%;
+	left:38%;
+	color:#fff;
+	font-size:10px;
+}
+.c_f7
+{
+
+	left:30%;
+	color:#a46e4e;
+	font-size:20px;
+}
+.c_f8
+{
+
+	top:12%;
+	left:37%;
+	color:#e2ba84;
+	font-size:5px;
+}
+.c_carousel_img
+{
+	width:111px;
+	max-height:100px;
+}
+/*---------index_d.html--------*/
+.tit_index
+{
+	width:1200px;
+	background-color:#d1d9c2;
+	text-align:center;
+	font-weight:600;
+	line-height:20px;
+	font-size:20px;
+}
+.all_box
+{
+	padding:20px;
+	border:#d1d9c2 2px solid;
+	text-align:center;
+}
+
+/*---------index_e.html--------*/
+#boxID{
+	width:550px;
+	height:340px;
+}
+.e_rank
+{
+	position:absolute;
+	top:0%;
+	left:0%;
+}
+.e_box
+{
+	position:relative;
+	border:#d1d9c2 2px dashed;
+	width:170px;
+	height:170px;
+}
+.e_cir
+{
+	font-size:25px;
+	font-weight:800; 
+	position: relative;
+	border:#d1d9c2 2px dashed;
+	width:140px;
+	height:140px;
+	display:  flex;
+	align-items: center;
+	justify-content:  center; 
+	border-radius:999em;
+}
+.img_shop_e
+{
+	width: 23%;
+	position: absolute;
+	bottom: 3px;
+	right: 0px;
+}
+.e_good
+{
+	font-size: 16px;
+	font-weight:700;
+}
+.e_money
+{
+	font-size: 30px;
+	color: #276617;
+	position: absolute;
+	left:20px;
+	bottom: 0px;
+}
+/*---------index_e&g.html--------*/
+.setin
+{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+/*---------index_h.html--------*/
+.font_s 
+{
+	font-size:20px;
+	font-weight:600;
+	text-align:left;
+	padding:130px 0px 0 25px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.img_shop
+{
+	width: 20%;
+	position: absolute;
+	bottom: 20px;
+	right: 25px;
+}
+.diamond
+{
+	width: 150px;
+	height:150px;
+	margin: 106px 0 0 105px;
+	-webkit-transform-origin: 0 100%;
+	-moz-transform-origin: 0 100%;
+	-o-transform-origin: 0 100%;
+	-ms-transform-origin: 0 100%;
+	transform-origin: 0 100%;
+	-webkit-transform:rotate(-45deg);
+	-moz-transform:rotate(-45deg);
+	-o-transform:rotate(-45deg);
+	-ms-transform:rotate(-45deg);
+	transform:rotate(-45deg);
+	position: absolute;
+}
+.sell_box
+{
+	height:380px;
+	background-color:#d1d9c2;
+}
+.sell_top
+{
+	width:100%;
+	height:150px;
+	background-color:#fff;
+}
+.bul_img
+{
+	position:absolute;
+	top:0%;
+	left:7%;
+	z-index:4;
+}
+.bul_text_m
+{
+	top:4%;
+	left:9%;
+	font-size:18px;
+}
+.bul_text_g
+{
+	top:12%;
+	left:11%;
+	font-size:16px;
+}
+.bul_text_m,.bul_text_g
+{
+	position:absolute;
+	z-index:5;
+	color:#fff;
+}
+.sel_box
+{
+	position: relative;
+	width:200px;
+	height:180px;
+}
+.sel_img
+{
+	width:152px;
+	height:152px;
+	position: absolute;
+	left:16%;
+	top:37%;
+	z-index:2;
+}
+/*---------index_h.html--------*/
+.h_box
+{
+	height:380px;
+}
+.h_img
+{
+	width:230px;
+	height:230px;
+}
+/*---------index_g.html--------*/
+.food_font
+{
+	font-weight:800;
+	color:#6b7167;
+	font-size:24px;
+}
+/*---------index_h.html--------*/
+.font_slide1,.font_slide2,.font_slide3
+{
+	text-align:left;
+	padding:0 0 0 20px;
+/* 第一步：先禁止斷行 */
+	white-space: nowrap;
+/* 第二步：超過部份隱藏 */
+	overflow: hidden;
+/* 第三部：表示文字溢出時，顯示省略符號(...) */
+	text-overflow: ellipsis;	
+}
+.font_slide1
+{
+	font-size:24px;
+	font-weight:600;
+}
+.font_slide2
+{
+	font-size:20px;
+	color:gray;
+	width: 100%;
+}
+.font_slide3
+{
+	font-size:30px;
+	color: #276617;
+	position: absolute;
+	bottom: 20px;
+}
+/*---------index_i.html--------*/
+.i_box
+{
+	text-align:center;
+	background-color: #f6f6f6;
+}
+/*---------all---------*/
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.space_box
+{
+	width:1200px;
+	height:40px;
+}
+.org
+{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffa733+0,ffdb8e+100 */
+background: rgb(255,167,51); /* Old browsers */
+background: -moz-linear-gradient(left, rgba(255,167,51,1) 0%, rgba(255,219,142,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(255,167,51,1) 0%,rgba(255,219,142,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(255,167,51,1) 0%,rgba(255,219,142,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa733', endColorstr='#ffdb8e',GradientType=1 ); /* IE6-9 */
+}
+
+/*--------sell_d.html---------*/
+.e_box1
+{
+	height: 70px;	
+	width:170px;
+	position: relative;
+}
+.e_good
+{
+	font-size: 16px;
+	font-weight:700;
+}
+.e_money
+{
+	font-size: 30px;
+	color: #276617;
+	position: absolute;
+	left:20px;
+	bottom: 0px;
+}

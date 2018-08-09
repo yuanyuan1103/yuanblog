@@ -1,0 +1,75 @@
+.touch_a {
+	background: url(../images/sell/d_9.jpg) no-repeat;
+	padding-left: 20px;
+	text-align: center;
+	width:120px;
+
+}
+.touch_a:hover {
+	background: url(../images/sell/d_8.jpg) no-repeat;
+	padding-left: 20px;
+	color: #b39966;
+	text-decoration: none;
+
+	border-bottom: #b39966 2px solid;
+}
+.touch_b {
+	background: url(../images/sell/d_11.jpg) no-repeat;
+	padding-left: 20px;
+	text-decoration: none;
+	text-align:center;
+	width:120px;
+}
+.touch_b:hover {
+	background: url(../images/sell/d_10.jpg) no-repeat;
+	padding-left: 20px;
+	color: #a7c98f;
+	text-decoration: none;
+	border-bottom: #a7c98f 2px solid;
+}
+.touch_c {
+	background: url(../images/sell/d_12.jpg) no-repeat;
+	padding-left: 20px;
+	text-decoration: none;
+	width:120px;
+	text-align:center;
+}
+.touch_c:hover {
+	background: url(../images/sell/d_13.jpg) no-repeat;
+	padding-left: 20px;
+	color: #dc2e4b;
+	text-decoration: none;
+	border-bottom: #dc2e4b 2px solid;
+}
+.touch_d {
+	background: url(../images/sell/d_14.jpg) no-repeat;
+	padding-left: 20px;
+	text-decoration: none;
+	width:120px;
+	text-align:center;
+}
+.touch_d:hover {
+	background: url(../images/sell/d_15.jpg) no-repeat;
+	padding-left: 20px;
+	color: #0091ff;
+	text-decoration: none;
+	border-bottom: #0091ff 2px solid;
+}
+.touch_e {
+	background: url(../images/sell/d_16.jpg) no-repeat;
+	padding-left: 20px;
+	text-decoration: none;
+	width:120px;
+	text-align:center;
+}
+.touch_e:hover {
+	background: url(../images/sell/d_17.jpg) no-repeat;
+	padding-left: 20px;
+	color: #ff2966;
+	text-decoration: none;
+	border-bottom: #ff2966 2px solid;
+}
+.touch_box
+{
+	width:20%;
+}

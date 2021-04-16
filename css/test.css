@@ -8,13 +8,12 @@ ul li.checked {
   text-decoration: line-through;
 }
 
-/* Remove margins and padding from the list */
 ul {
   margin: 0;
   padding: 0;
 }
 
-/* Style the list items */
+/* 列表樣式 */
 ul li {
   cursor: pointer;
   position: relative;
@@ -24,13 +23,12 @@ ul li {
   font-size: 18px;
   transition: 0.2s;
   
-  /* make the list items unselectable */
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
 }
-/*http://csscoke.com/2013/09/21/%E4%BD%BF%E7%94%A8css3-nth-childn-%E9%81%B8%E5%8F%96%E5%99%A8%E8%A9%B3%E8%A7%A3/*/
+
 /* 創作單雙數不同的背景 */
 ul li:nth-child(odd) {
   background: #f9f9f9;
@@ -48,7 +46,7 @@ ul li.checked {
   text-decoration: line-through;
 }
 
-/* Add a "checked" mark when clicked on */
+/*勾勾樣式*/
 ul li.checked::before {
   content: '';
   position: absolute;
@@ -62,14 +60,15 @@ ul li.checked::before {
   width: 7px;
 }
 
-/* Style the close button */
+/* 關閉樣式 */
 .close {
   position: absolute;
   right: 0;
   top: 0;
   padding: 12px 16px 12px 16px;
+  border-radius:999em;
 }
-
+/* 關閉樣式-移至上方會顯示 */
 .close:hover {
   background-color: #f44336;
   color: white;

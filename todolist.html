@@ -22,7 +22,7 @@
 		</h1>
 		<div class="input-group">
 			<button onclick="myFunction()" type="button" class="btn btn-secondary">新增項目</button>
-			<input id='myInput' type='text' class='form-control' placeholder="請輸入代辦事項">
+			<input id='myInput' onkeydown="keyIn()" type='text' class='form-control' placeholder="請輸入代辦事項">
 		</div>
 		<ul class='list' id="myUL">
 		</ul>
@@ -59,6 +59,38 @@
 			}
 		}
 	}
+	
+	//輸入完資料也可用enter
+	function keyIn(){
+		if (event.keyCode==13){//enter的鍵值為13
+			var input = document.getElementById("myInput").value; //取資料
+			var li = document.createElement("li");//取屬性 把資料變成列表
+			var myList = document.createTextNode(input);//從網頁取資料
+			li.appendChild(myList);
+			
+			if (input === '') {
+				alert("請輸入代辦資料，再新增");
+			} else {
+				document.getElementById("myUL").appendChild(li);
+			}
+
+			document.getElementById("myInput").value = "";  //清為空值
+			//創造關閉按鈕
+			var span = document.createElement("SPAN");
+			var txt = document.createTextNode("\u00D7");
+			span.className = "close";
+			span.appendChild(txt);
+			li.appendChild(span);
+			//把資料刪除
+			for (i = 0; i < close.length; i++) {
+				close[i].onclick = function() {
+					var div = this.parentElement;
+					div.style.display = "none";
+				}
+			}
+			
+		}
+	}
 		
 		//在原本的清單列表 創造關閉按鈕 
 		var myNodelist = document.getElementsByTagName("LI");
@@ -81,7 +113,7 @@
 			}
 		}
 
-		//新增ck的屬性到list，https://ithelp.ithome.com.tw/articles/10203574
+		//新增ck的屬性到list
 		var list = document.querySelector('ul');
 		list.addEventListener('click', function(ev) {
 			if (ev.target.tagName === 'LI') {

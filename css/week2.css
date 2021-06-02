@@ -1,0 +1,306 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.wrap{
+  width: 940px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+.header img{
+  height: 40px;
+}
+.header{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display : flex;
+  justify-content : space-between;
+}
+.header li img{
+  height: 24px;
+}
+.menu{
+  display:flex;
+  align-items:center;
+}
+.menu li a{
+  color : #3F5D45;
+  text-decoration: none;
+  display:block;/*變成區塊元素*/
+  padding-left: 60px;
+  font-size: 16px;
+}
+.menu li a:hover{
+  color : #fff;
+}
+.content{
+  margin-top: 60px;
+  display:flex;
+  width: 940px;
+}
+.list{
+  text-align: center;
+  font-size: 24px;
+  color:#3F5D45;
+
+}
+.list li{
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border : 1px solid #EAF0ED;
+}
+.title{
+  color:#EAF0ED;
+  background: #3F5D45;
+}
+.touch{
+  background: #EAF0ED;
+}
+.list li:hover{
+  background: #EAF0ED;
+}
+.item{
+  background-image:url("https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/p-1.png?raw=true");
+  width: 300px;
+  height: 315px;
+  font-size: 16px;
+  color: #EAF0ED;
+  display:flex;
+  justify-content : space-between;
+}
+.item p{
+  -webkit-writing-mode: vertical-lr;/*字體垂直*/
+  background: #3F5D45;
+  height: 90px;
+  padding: 10px;
+  margin-left: 10px;
+  display:flex;
+  justify-content: center;
+}
+.item img{
+  width: 20px;
+  height: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+.product{
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.price{
+  display:flex;
+  justify-content : space-between;
+  width: 300px;
+}
+.price p{
+  color:#3F5D45;
+  padding: 20px;
+  border : 1px solid #EAF0ED;
+  width: 165px;
+  text-align: center;
+}
+.shop {
+  text-align: center;
+  color : #3F5D45;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background: #EAF0ED;
+  font-size: 24px;
+}
+.shop:hover {
+  text-align: center;
+  color : #EAF0ED;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background: #3F5D45;
+  font-size: 24px;
+}
+.line{
+  display : flex ;
+  flex-wrap : wrap;/*換行的效果*/
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 650px;
+}
+.content-left{
+  width: 300px;
+}
+
+.item2{
+  background-image:url('https://hexschool.github.io/webLayoutTraining1st/student-week1/p-2.png')
+}
+.item3{
+   background-image:url('https://hexschool.github.io/webLayoutTraining1st/student-week1/p-3.png'); 
+}
+.item4{
+    background-image:url('https://hexschool.github.io/webLayoutTraining1st/student-week1/p-4.png');
+}
+.item5{
+    background-image:url('https://hexschool.github.io/webLayoutTraining1st/student-week1/p-5.png');
+}
+.item6{
+    background-image:url('https://hexschool.github.io/webLayoutTraining1st/student-week1/p-6.png');
+}
+.page{
+  display:flex;
+  justify-content:flex-end;
+}
+.page ul{
+    display:flex;
+}
+.page li{
+  border : 1px solid #EAF0ED;
+}
+.page a{
+  width: 60px;
+  height: 60px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-decoration: none;
+  color:#3F5D45;
+}
+.pagetouch {
+  background: #3F5D45;
+  color: #EAF0ED !important;
+}
+.page li a:hover{
+  background: #3F5D45;
+  color: #EAF0ED;
+}
+.footerheader{
+  height: 116px;
+  background: #3F5D45;
+  display:flex;
+  justify-content : space-around;
+  align-items:center;
+}
+.footerimg{
+  display:flex;
+  align-items:center;
+}
+.footerimg img{
+  height: 40px;
+  width: 40px;
+}
+
+.footerimg p{
+  padding-left: 20px;
+  font-size: 24px;
+  color: #EAF0ED;
+}
+.footermail{
+  width: 380px;
+  height: 56px;
+  display:flex;
+  background: #EAF0ED;
+  justify-content:space-between;
+}
+.footermail img{
+  display:flex;
+  align-items:center;
+  justify-content : center;
+  height: 24px;
+  width: 24px;
+}
+.centermail{
+  display:flex;
+  align-items:center;
+  padding-left: 20px;
+}
+.arrowyellow{
+  display:flex;
+  align-items:center;
+  justify-content : center;
+  background: #FFE180;
+  width: 64px;
+}
+.footercontent{
+  height: 341px;
+  background: #EAF0ED;
+}
+.footerleft img{
+  height: 26px;
+}
+
+.footerleft p{
+  color:#3F5D45;
+  font-size: 16px;
+  line-height:24px;
+}
+.footercontent{
+  display:flex;
+  justify-content:space-around;
+}
+.footerright h2{
+  -webkit-writing-mode: vertical-rl;
+  padding-top: 38px;
+  font-size: 28px;
+  color: #3F5D45;
+  display: flex;  
+  align-items: flex-end;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+.style{
+  padding-top: 38px;
+  padding-bottom: 115px;
+}
+.icon a img{
+  padding-top: 30px;
+}
+.footerleft{
+  width: 400px;
+}
+.footertext{
+  display: flex;
+  flex-direction: column;
+}
+.footerright p{
+  color:#3F5D45;
+  font-size: 16px;
+}

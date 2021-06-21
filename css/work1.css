@@ -1,0 +1,164 @@
+img{
+  max-width: 100%;
+}
+.bg-dark{
+  background: #343a40;
+  height: 56px;
+  display: flex;
+  align-items: center; 
+}
+.navber{
+  width: 1140px;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon{
+  color: white;
+  
+}
+.nav{
+  color:#6c757d;
+  border-color: #6c757d;
+  margin-right: 8px;
+  padding: 12px 16px;
+  border: 1px solid;
+  border-radius: 4px;
+}
+.icon img{
+  height: 20px;
+  width: 20px;
+  background: #343a40;
+  padding-right: 5px;
+}
+.icon span{
+  color:#fff;
+  font-size: 24px;
+  font-weight: bolder;
+  margin-left: 8px;
+}
+.content{
+  text-align: center;
+  padding: 100px;
+}
+/*1rem以16px換算*/
+.content h1{
+  font-size: 40px;
+  padding-bottom: 8px;
+}
+.content p{
+  font-size: 20px;
+  padding-bottom: 32px; 
+}
+.content a{
+  display: inline-block;
+  text-decoration:none;
+  color:#fff;
+  padding: 6px 12px;
+  border-radius: 4px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.btnBlue{
+   background: #007bff;
+}
+.btnGray{
+   background: #6c757d;
+}
+.item{
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 3rem 0 3rem 0;
+}
+.bgGray{
+   background-color: #f8f9fa;  
+}
+.card{
+  display:flex;
+  justify-content:space-between;/*靠左靠右*/
+  flex-wrap:wrap;  
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.card li{
+  width: 30%;
+  margin-bottom: 24px;
+}
+.cardHead{
+  position: relative;
+}
+.cardHead img{
+  border-radius: 4px 4px 0 0;
+}
+.card h2{
+  position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+.card li p{
+  padding: 16px;
+  line-height: 24px;
+}
+.cardFooter{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cardBtn{
+  display: flex;
+  padding: 16px;
+}
+.cardFooter a{
+  font-size: 14px;
+  color: #6c757d;
+  border-radius: 3px;
+  text-decoration: none;
+  border: 1px solid #6c757d;
+  padding: 6px;
+}
+.cardFooter span{
+  color: #6c757d;
+  padding: 16px;
+}
+.cardStyle{
+  box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+  border-radius: 4px;
+}
+@media(max-width:768px){
+  .navber{
+    max-width: 720px;
+  }
+  .item{
+    max-width: 540px;
+  }
+  .card li{
+    width: 100%;
+  }
+  .cardHead img{
+    width: 100%;
+  }
+  .bgGray{
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+}
+.bgWhite{
+  margin: 0 auto;
+}
+.footerText{
+  max-width:1140px;
+  padding: 48px 0 48px;
+  display:flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.footerText a{
+  color: #007bff;
+  text-decoration: none;
+}
